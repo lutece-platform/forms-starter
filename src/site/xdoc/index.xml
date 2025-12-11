@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <properties>
+        <title>Forms starter</title>
+    </properties>
+    <head>
+        <meta name="keywords" content="starter, form"/>
+    </head>
+    <body>
+        <section name="Forms starter">
+            <subsection name="Introduction">
+                <p>The "Forms Starter" package offers a pre-selected set of Lutece plugins focused on forms, providing the following features:</p>
+                <ul>
+			<li> Form generation engine</li>
+			<li> ​​Process management for handling form responses</li>
+			<li> Assignment of these forms to entities or administrators</li>
+			<li> Generation of PDF, CSV, and other files</li>
+			<li> Sending notifications</li>
+			<li> All basic Lutece features (user management, permissions, roles, profiles, etc.)</li>
+			<li> etc.</li>
+		</ul>
+
+		<p>The "Forms Starter" package can be used directly or as a starting point for building a more complete Lutece site by adding other necessary plugins related to:</p>
+		<ul>
+			<li> authentication type</li>
+			<li> statistical tracking</li>
+			<li> specific business functionalities</li>
+			<li> etc.</li>
+		</ul>
+      
+            </subsection>
+            
+            <subsection name="Configuration">
+               
+                <p>Declare the Forms Starter as a dependency in the lutece site pom.xml </p>
+                
+                  <pre><![CDATA[
+<dependency>
+	<groupId>fr.paris.lutece.starters</groupId>
+	<artifactId>forms-starter</artifactId>
+	<version>[x.y.z]</version>
+	<type>jar</type>
+</dependency>
+]]></pre>
+            </subsection>
+            
+            <subsection name="Usage">
+            
+            	<p><strong>DB generation</strong></p>
+                <p>
+To create Database automatically, activate the liquibase engine by overriding  the property : 
+                </p>
+               <pre><![CDATA[
+liquibase.enabled.at.startup=true
+]]></pre>
+            </subsection>
+        </section>
+    </body>
+</document>
