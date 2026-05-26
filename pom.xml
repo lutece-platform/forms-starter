@@ -87,7 +87,7 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>plugin-forms</artifactId>
-            <version>3.1.5-SNAPSHOT</version>
+            <version>[3.1.5]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
@@ -111,7 +111,7 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-workflow-forms</artifactId>
-            <version>2.3.6-SNAPSHOT</version>
+            <version>[2.3.6]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
@@ -272,13 +272,13 @@
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-workflow-notifygru</artifactId>
-            <version>2.1.12-SNAPSHOT</version>
+            <version>[2.1.12]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
             <groupId>fr.paris.lutece.plugins</groupId>
             <artifactId>module-notifygru-forms</artifactId>
-            <version>1.2.3-SNAPSHOT</version>
+            <version>[1.2.3]</version>
             <type>lutece-plugin</type>
         </dependency>
         <dependency>
